@@ -34,6 +34,7 @@ If your device has more than one camera attached, you can select different camer
 python main.py
 ```
 Follow the instructions (adjust hand gesture for 10s and hold for 5s) and the results will be printed in a table ("O": positive, "X": negative). For the case where only one hand is detected, the results will be shown as left hand.  
+   
 Note that the results greatly depend on the hand gesture towards the camera, thus, we add 10s （preparation stage） at frontend so that users can adjust hand gesture until circle sign appears at thumb & forefinger. During the next 5s (detection stage), please hold the correct gesture. Final result is only affected by the hand gesture in the last 5s.
 
 # Contact us
