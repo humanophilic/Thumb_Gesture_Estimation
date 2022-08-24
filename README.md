@@ -27,7 +27,7 @@ pip install mediapipe
 
 ## Usage
 ### Camera select
-If your device has more than one camera attached, you can select different cameras by modifying `0` of `cap = cv2.VideoCapture(0)` in Line 42 of `main.py`. (e.g., if you have two cameras, `0` stands for the default camera index, and you can modify it into `1` to select another camera)
+If your device has more than one camera attached, you can select different cameras by modifying `0` of `cap = cv2.VideoCapture(0)` in Line 42 of `main.py`. (e.g., if you have three cameras, `0` stands for the default camera index, and you can modify it into `1` or `2` to select other cameras)
 
 ### Run
 ```
